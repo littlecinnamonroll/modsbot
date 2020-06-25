@@ -11,7 +11,7 @@ from ruamel import yaml
 
 cfgfile = open("config/config.yml")
 config = yaml.safe_load(cfgfile)
-
+token = "NzI1ODIzNjA1NTY0NTA2MTYy.XvUYUQ.aQ4Gd9FkQBHT_Ln4lMH8-SncVOU"
 
 class MODSBot(commands.Bot):
     def __init__(self, prefix):
